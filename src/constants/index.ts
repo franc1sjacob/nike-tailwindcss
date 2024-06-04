@@ -20,15 +20,25 @@ import {
   thumbnailShoe2,
   thumbnailShoe3,
 } from "../assets/images";
+import {
+  FooterLinkType,
+  NavLinkType,
+  ProductType,
+  ReviewType,
+  ServiceType,
+  ShoeType,
+  SocialMediaType,
+  StatisticType,
+} from "./types";
 
-export const navLinks = [
+export const navLinks: NavLinkType[] = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+export const shoes: ShoeType[] = [
   {
     thumbnail: thumbnailShoe1,
     bigShoe: bigShoe1,
@@ -43,13 +53,13 @@ export const shoes = [
   },
 ];
 
-export const statistics = [
+export const statistics: StatisticType[] = [
   { value: "1k+", label: "Brands" },
   { value: "500+", label: "Shops" },
   { value: "250k+", label: "Customers" },
 ];
 
-export const products = [
+export const products: ProductType[] = [
   {
     imgURL: shoe4,
     name: "Nike Air Jordan-01",
@@ -72,7 +82,7 @@ export const products = [
   },
 ];
 
-export const services = [
+export const services: ServiceType[] = [
   {
     imgURL: truckFast,
     label: "Free shipping",
@@ -91,7 +101,7 @@ export const services = [
   },
 ];
 
-export const reviews = [
+export const reviews: ReviewType[] = [
   {
     imgURL: customer1,
     customerName: "Morich Brown",
@@ -108,7 +118,7 @@ export const reviews = [
   },
 ];
 
-export const footerLinks = [
+export const footerLinks: FooterLinkType[] = [
   {
     title: "Products",
     links: [
@@ -139,7 +149,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+export const socialMedia: SocialMediaType[] = [
   { src: facebook, alt: "facebook logo" },
   { src: twitter, alt: "twitter logo" },
   { src: instagram, alt: "instagram logo" },

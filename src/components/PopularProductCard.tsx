@@ -1,7 +1,7 @@
-import React from "react";
 import { star } from "../assets/icons";
+import { ProductType } from "../constants/types";
 
-const PopularProductCard = ({ imgURL, name, price }: any) => {
+const PopularProductCard = ({ imgURL, name, price }: ProductType) => {
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
       <img src={imgURL} alt={name} className="w-[280px] h-[280px]" />
